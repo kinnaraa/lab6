@@ -17,16 +17,6 @@ def encoder(string):
     return new_encoded
 
 
-def decoder(string):
-    decoded = []
-    for char in string:
-        decoded.append(int(char)-3)
-    new_decoded = ""
-    for num in decoded:
-        new_decoded += str(num)
-    return new_decoded
-
-
 def main():
     option = ""
     while option != 3:
