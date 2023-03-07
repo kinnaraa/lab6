@@ -28,6 +28,7 @@ def main():
             print("Your password has been encoded and stored!")
         elif option == 2:
             print(f"The encoded password is {encoder(string)}, and the original password is {string}.")
+            # Individual Decoder funtion not necessary
         elif option == 3:
             break
         print()
